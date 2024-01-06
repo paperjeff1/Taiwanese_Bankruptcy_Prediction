@@ -75,7 +75,7 @@ print(f"undersampling後的正負樣本分布")
 print(Y_train.value_counts())
 print(f"正樣本占比:{Y_train.value_counts()[1]/len(Y_train)}")
 
-### 建立4個類別預測模型，Decision Tree, Random Forest, Gradient Boosting Tree, Support Vector Machine
+### 建立5個類別預測模型，Decision Tree, Random Forest, XGBoost, LGBM, Support Vector Machine
 # 1. Decision Tree, 決策樹
 from sklearn.tree import DecisionTreeClassifier
 
